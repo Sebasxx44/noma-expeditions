@@ -1,0 +1,7 @@
+import type { Destination } from '@/types';
+
+export const destinations: Destination[] = [
+  { id: 'patagonia', name: 'Patagonia', country: 'ARGENTINA & CHILE', caption: 'At the edge of everything.', image: '/images/patagonia.jpg', coordinate: '50°20′ S · 72°15′ W', days: 8, rate: 285, terrain: 'Peaks & open trails', route: ['Arrive in El Chaltén. Settle into the rhythm of the mountains.', 'Follow the Laguna de los Tres trail beneath Fitz Roy.', 'A quiet day by the lakes, with time for the unexpected.', 'Cross the steppe and discover the Perito Moreno glacier.'] },
+  { id: 'dolomites', name: 'The Dolomites', country: 'NORTHERN ITALY', caption: 'Find a different altitude.', image: '/images/dolomites.jpg', coordinate: '46°29′ N · 11°51′ E', days: 6, rate: 245, terrain: 'Alpine paths & lakes', route: ['Arrive in Cortina and get acquainted with the valley.', 'Walk the Tre Cime circuit at your own pace.', 'Discover the turquoise water of Lago di Braies.', 'Take a final sunrise walk before the journey home.'] },
+  { id: 'iceland', name: 'Iceland', country: 'THE NORTH ATLANTIC', caption: 'A little closer to wild.', image: '/images/iceland.jpg', coordinate: '64°08′ N · 21°56′ W', days: 7, rate: 315, terrain: 'Waterfalls & wild coasts', route: ['Begin in Reykjavík with an unhurried afternoon.', 'Trace the south coast, its waterfalls and black sand.', 'Spend a day among glaciers and wide open horizons.', 'Return through geothermal valleys and warm water.'] },
+];

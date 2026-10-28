@@ -1,0 +1,2 @@
+interface ActionHeaderProps { eyebrow: string; title: string; description?: string; light?: boolean }
+export const ActionHeaderTA = ({ eyebrow, title, description, light = false }: ActionHeaderProps) => <div className={`section-heading ${light ? 'section-heading--light' : ''}`}><p className="eyebrow"><span className="small-cross">+</span>{eyebrow}</p><div className="heading-row"><h2>{title}</h2>{description && <p>{description}</p>}</div></div>;
