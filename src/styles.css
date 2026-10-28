@@ -9,3 +9,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.destination-image:hover img{transform:none}.button:hover{transform:none}}
 
 .field-error{font-size:9px;line-height:1.5;color:#a1422a;margin:8px 0 0}.date-wrap:has(input[aria-invalid="true"]){border-bottom-color:#a1422a}
+
+.decorative-asterisk{display:block;width:1em;height:1em;flex-shrink:0}
